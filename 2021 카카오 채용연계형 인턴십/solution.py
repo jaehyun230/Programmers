@@ -20,8 +20,6 @@ def solution(s):
         answer = answer.replace('eight', '8')
     while 'nine' in answer:
         answer = answer.replace('nine', '9')
-    
     answer = int(answer)
 
-    
     return answer
