@@ -3,9 +3,6 @@ def solution(participant, completion):
     completion.sort()
     for i in range (len(completion)) :
         if completion[i] != participant[i] :
-            answer = participant[i]
-            break
-        else :
-            answer = participant[-1]
-    
-    return answer
+            return participant[i]
+            
+    return participant[-1]
